@@ -3,48 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=no"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Estilos.css">
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/Funciones.js"></script>
     <title>Apartado de compras</title>
 </head>
 <body class="mainColors">
     <header>
-        <nav class="navbar navbar-expand-lg bg-navbar">
-            <div class="container">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link text-light fs-4 nav-link-space" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light fs-4 nav-link-space" href="Catalogo.html">Cat&aacute;logo</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light fs-4 nav-link-space" href="#">Sucursales</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light fs-4 nav-link-space" href="form.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-light fs-4 nav-link-space" href="#">Acerca de nosotros</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-light fs-4 nav-link-space" href="#">FAQ</a>
-            </li>
-         </ul>
-            </div>
+        <nav class="navbar navbar-expand-lg d-fixed bg-navbar">
+                <a href="#" class="navbar-brand NavLinkTexBrand">EL Gorgojo Feliz</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link NavLinkTex nav-link-space" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link NavLinkTex nav-link-space" href="Catalogo.html">Cat&aacute;logo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link NavLinkTex nav-link-space" href="#">Sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link NavLinkTex nav-link-space" href="form.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link NavLinkTex nav-link-space" href="#">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link NavLinkTex nav-link-space" href="#">FAQ</a>
+                        </li>
+                     </ul>
+                </div>
         </nav>
-</header>
+    </header>
     <div class="FormCompra">
-        <h3 class="text-center h1">Bienvenido a el apartado de compras</h3>
+        <h3 class="text-center CtlgFSiseTop2">Bienvenido a el apartado de contacto</h3>
         <form method="POST" onsubmit="return Validar()" name="CpNuevosCx">
-            Nombre del interesado:<br><input type="text" id="Nombre" name="Nombre" class="inptSise inputsColor"><div id="NombreVacio" class="Error"></div><br>
-            Direccion del interesado: <br><input type="text" id="Direccion" class="inptSise Spaced inputsColor"><div id="DireccionVacia" class="Error"></div><br>
-            Municipio de San Miguel en que reside: <select name="Municipio" id="Municipio" class="form-select-sm Spaced inputsColor">
+            <label class="CtlgFSiseText">Nombre del interesado:</label><br><input type="text" id="Nombre" name="Nombre" class="inptSise inputsColor"><div id="NombreVacio" class="Error"></div><br>
+            <label class="CtlgFSiseText">Direccion del interesado:</label><br><input type="text" id="Direccion" class="inptSise Spaced inputsColor"><div id="DireccionVacia" class="Error"></div><br>
+            <label class="CtlgFSiseText">Municipio de San Miguel en que reside:</label> <select name="Municipio" id="Municipio" class="form-select-sm Spaced inputsColor">
                 <option value="" selected disabled hidden>---Seleccione---</option>
                 <option value="1">San Miguel</option>
                 <option value="2">Chirilagua</option>
@@ -55,14 +57,14 @@
                 <option value="6">Nueva Guadalupe</option>
                 <option value="7">Chinameca</option>
             </select><div id="MunicipioVacio" class="Error"></div><br>
-            Correo electronico: (Opcional) <br><input type="email" id="Correo" class="inptSise Spaced inputsColor"><br>
-            Numero de telefono: <br><input type="tel" id="NumeroTel" class="Spaced inputsColor"><br>
+            <label class="CtlgFSiseText">Correo electronico: (Opcional)</label> <br><input type="email" id="Correo" class="inptSise Spaced inputsColor"><br>
+            <label class="CtlgFSiseText">Numero de telefono:</label> <br><input type="tel" id="NumeroTel" class="Spaced inputsColor"><br>
             <div id="TelefonoVacio" class="Error"></div>
-            Inter&eacute;s de adquisic&iacute;on <br>
+            <label class="CtlgFSiseText">Inter&eacute;s de adquisic&iacute;on</label> <br>
             <input type="radio" name="IAdquision" id="personal" class="rdSise inputsColor" value="Consumo personal"><label for="personal">Consumo pesonal</label><br>
             <input type="radio" name="IAdquision" id="mayoreo" class="rdSise Spaced inputsColor" value="Mayoreo"><label for="mayoreo">Mayoreo</label><br>
             <div id="MotCompraVacio" class="Error"></div>
-            <input type="checkbox" id="TermsAcept" class="inputsColor"> &iquest;Acepta los <a href="#">teminos</a> y <a href="#">condiciones</a> de nuestra empresa?
+            <input type="checkbox" id="TermsAcept" class="inputsColor"><label class="CtlgFSiseText">&iquest;Acepta los <a href="#">teminos</a> y <a href="#">condiciones</a> de nuestra empresa?</label>
             
             <div id="TermsVacio" class="Error"></div>
             <br>

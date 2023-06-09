@@ -1,18 +1,30 @@
 .bg-navbar{
     background-color: #8D7B68;
     width: 100%;
-    display: fixed;
     top: 0;
 }
 .NavLinkTex{
     color: white;
-    font-size: small;
+    font-size: 1cqmax;
 }
 .NavLinkTex:hover{
     color: #F1DEC9;
 }
+.NavLinkTex:active{
+    color: #C8B6A6;
+}
+.NavLinkTexBrand{    
+    color: white;
+    font-size: 1.5cqmax;
+    
+}
+.NavLinkTexBrand:hover{
+    color: #F1DEC9;
+}
+.NavLinkTexBrand:active{
+    color: #C8B6A6;
+}
 .mainColors{
-    background-color: #F1DEC9;
     color: #A4907C;
 }
 .ColorsCatl{
@@ -38,13 +50,9 @@ img{
 {
     text-align: center;
 }
-.card{
-    border: none;
-    margin: 0 auto;
-}
 .ImgSise{
     width: auto;
-    max-height: 20em;
+    max-height: 10cqmax;
 }
 #Table-position{
     width: 95%;
@@ -69,15 +77,15 @@ img{
     color: white;
 }
 .FormCompra{
-    width: fit-content;
     margin: 0 auto;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     padding: 1%;
+    width: 35cqmax;
     border: 1px solid #8D7B68;
     border-radius: 5px;
-    background-color: #C8B6A6;
-    color: #8D7B68;
+    background-color: #A4907C;
+    color: white;
 }
 .FormCompra form .inptSise{
     width: 55%;
@@ -116,12 +124,21 @@ img{
 }
 
 .inputsColor:checked{
-    border: 0.5px solid #A4907C;
+    border: 0.5px solid #F1DEC9;
     border-radius: 5px;
     outline: white;
-    accent-color: #A4907C;
+    accent-color: #F1DEC9;
 }
 .SaveDiscart:hover{
-    background-color: #8D7B68;
-    color: white;
+    background-color: #F1DEC9;
+    color: #8D7B68;
+}
+.CtlgFSiseText{
+    font-size: 1cqmax;
+}
+.CtlgFSiseTop{
+    font-size: 2cqmax;
+}
+.CtlgFSiseTop2{
+    font-size: 1.5cqmax;
 }
