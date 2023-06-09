@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<ht lang="en">
+<head>
+    <title>Panda Gorgojo Feliz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Estilos.css">
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/Funciones.js"></script>
+</head>
+<body class="ColorsCatl">
+    <header>
+            <nav class="navbar navbar-expand-lg d-fixed bg-navbar">
+                <div class="container d-fixed">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-light"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5 NavLinkTex nav-link-space" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5 NavLinkTex nav-link-space" href="Catalogo.html">Cat&aacute;logo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5 NavLinkTex nav-link-space" href="#">Sucursales</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5 NavLinkTex nav-link-space" href="form.html">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5 NavLinkTex nav-link-space" href="#">Acerca de nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-5 NavLinkTex nav-link-space" href="#">FAQ</a>
+                                </li>
+                         </ul>
+                </div>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <table class="table" id="Table-position">                      
+            <tr>
+                <div class="container">  
+                    <div class="row">
+                        <div class="col-4">
+                            <td>
+                                <img class="ImgSise img-fluid" src="IMG/PanA.webp" ondblclick="AbrirModal('#pfr')">                    
+                                <p>COD: 01234</p>
+                                <h3>Pan frances</h3>
+                            </td>                        
+                            <div class="modal fade bgPersonalised" id="pfr" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                                <div class="modal-dialog bgm bgModalPersonalised">
+                                    <div class="text-center pt-3">
+                                        <h3 class="modal-title modalColor" id="modalTitle"><b>Pan frances</b></h3>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="IMG/PanA.webp" class="ImgSise"><br><br>
+                                        <p class="text-center modalColor">Pan echo con productos 100% organicos, listo para cualquier uso que guste darle.</p>
+                                        <h5 class="text-center modalColor">Precio unitario:</h5><p class=" text-center modalColor">$0.15</p><h5 class=" text-center modalColor">Precio al   por   mayor:</h5><p class=" text-center modalColor">$0.10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <td>
+                                <img class="card-img-top ImgSise" src="IMG/PanB.jpg" ondblclick="AbrirModal('#mff')">
+                                <p>COD: 01235</p>
+                                <h3>Muffin de banana</h3>
+                            </td>
+                            <div class="modal fade bgPersonalised" id="mff" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                                <div class="modal-dialog bgm bgModalPersonalised">
+                                    <div class="text-center pt-3">
+                                        <h3 class="modal-title modalColor" id="modalTitle"><b>Muffin de banana</b></h3>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="IMG/PanB.jpg" class="w-100 h-70"><br><br>
+                                        <p class="modalColor text-center">Muffin echo con ingredientes frescos, relleno de trozos de banana.</p>
+                                        <h5 class="modalColor text-center">Precio unitario:</h5><p class="modalColor text-center">$0.25</p><h5 class="modalColor text-center">Precio al     por     mayor:</h5><p class="modalColor text-center">$0.15</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <td>
+                                <img class="card-img-top ImgSise" src="IMG/PanC.webp" alt="Card image cap" ondblclick="AbrirModal('#cch')">
+                                <p>COD: 01236</p>
+                                <h3>Concha</h3>
+                            </td>
+                            <div class="modal fade bgPersonalised" id="cch" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                                <div class="modal-dialog bgm bgModalPersonalised">
+                                    <div class="text-center pt-3">
+                                        <h3 class="modal-title modalColor" id="modalTitle"><b>Concha</b></h3>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="IMG/PanC.webp" class="w-100 h-70"><br><br>
+                                        <p class="modalColor text-center">Pan de concha, con un interior suave y un exterior crujiente, perfecto para un cafe por la tarde.</p>
+                                        <h5 class="modalColor text-center">Precio unitario:</h5><p class="modalColor text-center">$0.15</p><h5 class="modalColor text-center">Precio al     por     mayor:</h5><p class="modalColor text-center">$0.10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </tr>           
+                    <tr>
+                    <td>
+                        <img class="ImgSise" src="IMG/PanD.jpg" ondblclick="AbrirModal('#orj')">
+                        <p>COD: 01237</p>
+                        <h3>Oreja</h3>
+                    </td>
+                    <div class="modal fade bgPersonalised" id="orj" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                        <div class="modal-dialog bgm bgModalPersonalised">
+                            <div class="text-center pt-3">
+                                <h3 class="modal-title modalColor" id="modalTitle"><b>Oreja</b></h3>
+                            </div>
+                            <div class="modal-body">
+                                <img src="IMG/PanD.jpg" class="w-100 h-70"><br><br>
+                                <p class="modalColor text-center">Pan crujiente y perfecto para cualquier ocacion, se puede acompa&ntilde;ar con lo que usted prefiera.</p>
+                                <h5 class="modalColor text-center">Precio unitario:</h5><p class="modalColor text-center">$0.25</p><h5 class="modalColor text-center">Precio al por     mayor:</h5><p class="modalColor text-center">$0.15</p>
+                            </div>
+                        </div>
+                    </div>
+                    <td>
+                        <img class="card-img-top ImgSise" src="IMG/PanE.webp" ondblclick="AbrirModal('#pmdl')">
+                        <p>COD: 01238</p>
+                        <h3>Pan de molde</h3>
+                    </td>
+                    <div class="modal fade bgPersonalised" id="pmdl" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                        <div class="modal-dialog bgm bgModalPersonalised">
+                            <div class="text-center pt-3">
+                                <h3 class="modal-title modalColor" id="modalTitle"><b>Pan de molde</b></h3>
+                            </div>
+                            <div class="modal-body">
+                                <img src="IMG/PanE.webp" class="w-100 h-70"><br><br>
+                                <p class="modalColor text-center">Pan de molde rello con pedazos de chocolate o pazas, y con la mejor calidad.</p>
+                                <h5 class="modalColor text-center">Precio unitario:</h5><p class="modalColor text-center">$1.00</p><h5 class="modalColor text-center">Precio al por     mayor:</h5><p class="modalColor text-center">$0.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <td>
+                        <img class="card-img-top ImgSise" src="IMG/PanF.webp" alt="Card image cap" ondblclick="AbrirModal('#ptt')">
+                        <p>COD: 01239</p>
+                        <h3>Pan de torta</h3>
+                    </td>
+                    <div class="modal fade bgPersonalised" id="ptt" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                        <div class="modal-dialog bgm bgModalPersonalised">
+                            <div class="text-center pt-3">
+                                <h3 class="modal-title modalColor" id="modalTitle"><b>Pan de torta</b></h3>
+                            </div>
+                            <div class="modal-body">
+                                <img src="IMG/PanF.webp" class="w-100 h-70"><br><br>
+                                <p class="modalColor text-center">Pan de torta con sabor a vainilla relleno de crema, y con un glaseado de az&uacute;car glas. o pazas, y con la mejor  calidad.</p>
+                                <h5 class="modalColor text-center">Precio unitario:</h5><p class="modalColor text-center">$0.25</p><h5 class="modalColor text-center">Precio al por     mayor:</h5><p class="modalColor text-center">$0.15</p>
+                            </div>
+                        </div>
+                    </div>
+                    </tr>
+                    <tr>
+                    <td>
+                        <img class="ImgSise" src="IMG/PanG.jpg" ondblclick="AbrirModal('#ndt')">
+                        <p>COD: 01249</p>
+                        <h3>Nuditos</h3>
+                    </td>
+                    <div class="modal fade bgPersonalised" id="ndt" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                        <div class="modal-dialog bgm bgModalPersonalised">
+                            <div class="text-center pt-3">
+                                <h3 class="modal-title modalColor" id="modalTitle"><b>Nuditos</b></h3>
+                            </div>
+                            <div class="modal-body">
+                                <img src="IMG/PanG.jpg" class="w-100 h-70"><br><br>
+                                <p class="modalColor text-center">Pan salado ba&ntilde;ado con una capa de mantequilla y ajonjol&iacute;, con un exterior crujiente y suave por dentro.</p>
+                                <h5 class="modalColor text-center">Precio unitario:</h5><p class="modalColor text-center">$0.25</p><h5 class="modalColor text-center">Precio al por     mayor:</h5><p class="modalColor text-center">$0.15</p>
+                            </div>
+                        </div>
+                        </div>
+                        <td>
+                        <img class="card-img-top ImgSise" src="IMG/PanH.png" ondblclick="AbrirModal('#trl')">
+                        <p class="card-text">COD: 01259</p>
+                        <h3>Tarta rellena</h3>
+                    </td>
+                    <div class="modal fade bgPersonalised" id="trl" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                        <div class="modal-dialog bgm bgModalPersonalised">
+                            <div class="text-center pt-3">
+                                <h3 class="modal-title modalColor" id="modalTitle"><b>Tarta rellena</b></h3>
+                            </div>
+                            <div class="modal-body">
+                                <img src="IMG/PanH.png" class="w-100 h-70"><br><br>
+                                <p class= "modalColor text-center">Tarta crujiente rellena de jalea de frutas echa de manera artesanal, con productos 100% frescos y de la mejor calidad.</p>
+                                <h5 class="modalColor text-center">Precio unitario:</h5><p class="modalColor text-center">$0.75</p><h5 class="modalColor text-center">Precio al por     mayor:</h5><p class="modalColor text-center">$0.65</p>
+                            </div>
+                        </div>
+                    </div>
+                    <td>
+                        <img class="card-img-top ImgSise" src="IMG/PanI.jpg" ondblclick="AbrirModal('#tfr')">
+                        <p class="card-text">COD: 01269</p>
+                        <h3>Tarta francesa</h3>
+                    </td>
+                    <div class="modal fade bgPersonalised" id="tfr" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                        <div class="modal-dialog bgm bgModalPersonalised">
+                            <div class="text-center pt-3">
+                                <h3 class="modal-title modalColor" id="modalTitle"><b>Tarta francesa</b></h3>
+                            </div>
+                            <div class="modal-body">
+                                <img src="IMG/PanI.jpg" class="ImgSise"><br><br>
+                                <p class="modalColor text-center">Tarta de ojaldre rellena de frutas y jalea o miel, con bordes crujientes y un sabor a frutas naturales perfectas para     compartir</p>
+                                <h5 class="modalColor text-center">Precio unitario:</h5><p class="modalColor text-center">$1.00</p><h5 class="modalColor text-center">Precio al por     mayor:</h5><p class="modalColor text-center">$0.95</p>
+                            </div>
+                        </div>
+                    </div>
+                    </tr>
+                    <tr>
+                    <td>
+                        <img class=" ImgSise" src="IMG/PanJ.jpg" ondblclick="AbrirModal('#rql')">
+                        <p class="card-text">COD: 0179</p>
+                        <h3>Rosquilla</h3>
+                    </td>
+                    </tr>
+                    <div class="modal fade bgPersonalised " id="rql" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                    <div class="modal-dialog bgm bgModalPersonalised">
+                        <div class="text-center pt-3">
+                            <h3 class="modal-title modalColor" id="modalTitle"><b>Rosquilla</b></h3>
+                        </div>
+                        <div class="modal-body">
+                            <img src="IMG/PanJ.jpg" class="ImgSise"><br><br>
+                            <p class="modalColor text-center">Rosquillas con sabor a vainilla y glaseadas, va&ntilde;adas con azucar.</p>
+                            <h5 class="modalColor text-center">Precio unitario:</h5><p class="modalColor text-center">$0.25</p><h class="modalColor text-center">Precio al por mayor:</h5><p class="modalColor text-center">$0.15</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </table>
+        
+    </main>
+</body>
+</html>

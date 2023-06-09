@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <link rel="stylesheet" href="css/Estilos.css">
+    <script type="text/javascript" src="js/Funciones.js"></script>
+    <title>Apartado de compras</title>
+</head>
+<body>
+    <div class="FormCompra">
+        <h3 class="text-center h1">Bienvenido a el apartado de compras</h3>
+        <form class="" onsubmit="ValSave()">
+            Nombre del interesado:<br><input type="text" id="Nombre" class="inptSise"><div id="NombVac" class="Error"></div><br>
+            Direccion del interesado: <br><input type="text" id="Direccion" class="inptSise Spaced"><br>
+            Municipio de San Miguel en que reside: <select name="Municipio" id="Municipio" class="form-select-sm Spaced">
+                <option value="" selected hidden>---Seleccione---</option>
+                <option value="San Miguel">San Miguel</option>
+                <option value="Chirilagua">Chirilagua</option>
+                <option value="Quelapa">Quelapa</option>
+                <option value="Moncagua">Moncagua</option>
+                <option value="Chepeltique">Chepeltique</option>
+                <option value="Lolotique">Lolotique</option>
+                <option value="Nueva Guadalupe">Nueva Guadalupe</option>
+                <option value="Chinameca">Chinameca</option>
+            </select><br>
+            Correo electronico: (Opcional) <br><input type="email" id="Correo" class="inptSise Spaced"><br>
+            Numero de telefono: <br><input type="tel" id="" class="Spaced"><br>
+            Inter&eacute;s de adquisic&iacute;on <br>
+            <input type="radio" name="IAdquision" id="personal" class="rdSise" value="Consumo personal"><label for="personal">Consumo pesonal</label><br>
+            <input type="radio" name="IAdquision" id="mayoreo" class="rdSise Spaced" value="Mayoreo"><label for="mayoreo">Mayoreo</label><br>
+            &iquest;Acepta los <a href="#">teminos</a> y <a href="#">condiciones</a> de nuestra empresa?
+            <br>
+            <input type="radio" name="T&C" id="Si" class="rdSise"><label for="Si">Si</label>
+            <input type="radio" name="T&C" id="No" class="rdSise Spaced"><label for="No">No</label>
+            <br>
+            <input type="reset" value="Limpiar" class="btn btn-danger">
+            <input type="submit" value="Confirmar" class="btn btn-primary">
+        </form>
+    </div>
+</body>
+</html>

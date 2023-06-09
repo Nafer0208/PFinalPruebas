@@ -1,44 +1,75 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <title>Panda Gorgojo Feliz</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Estilos.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/Funciones.js"></script>
+    <title>Apartado de compras</title>
 </head>
 <body class="mainColors">
     <header>
-            <nav class="navbar navbar-expand-lg bg-navbar">
-                <div class="container">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-light fs-4 nav-link-space" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fs-4 nav-link-space" href="Catalogo.html">Cat&aacute;logo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fs-4 nav-link-space" href="#">Sucursales</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fs-4 nav-link-space" href="form.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-light fs-4 nav-link-space" href="#">Acerca de nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light fs-4 nav-link-space" href="#">FAQ</a>
-                </li>
-             </ul>
-                </div>
-            </nav>
-    </header>
-    <main>
-        <section id="Welcome"> 
-            <h1>Bienvenido a <br> Panaderia El Gorgojo Feliz</h1>
-        </section>
-    </main>
+        <nav class="navbar navbar-expand-lg bg-navbar">
+            <div class="container">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link text-light fs-4 nav-link-space" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light fs-4 nav-link-space" href="Catalogo.html">Cat&aacute;logo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light fs-4 nav-link-space" href="#">Sucursales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light fs-4 nav-link-space" href="form.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-light fs-4 nav-link-space" href="#">Acerca de nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light fs-4 nav-link-space" href="#">FAQ</a>
+            </li>
+         </ul>
+            </div>
+        </nav>
+</header>
+    <div class="FormCompra">
+        <h3 class="text-center h1">Bienvenido a el apartado de compras</h3>
+        <form method="POST" onsubmit="return Validar()" name="CpNuevosCx">
+            Nombre del interesado:<br><input type="text" id="Nombre" name="Nombre" class="inptSise inputsColor"><div id="NombreVacio" class="Error"></div><br>
+            Direccion del interesado: <br><input type="text" id="Direccion" class="inptSise Spaced inputsColor"><div id="DireccionVacia" class="Error"></div><br>
+            Municipio de San Miguel en que reside: <select name="Municipio" id="Municipio" class="form-select-sm Spaced inputsColor">
+                <option value="" selected disabled hidden>---Seleccione---</option>
+                <option value="1">San Miguel</option>
+                <option value="2">Chirilagua</option>
+                <option value="2">Quelapa</option>
+                <option value="3">Moncagua</option>
+                <option value="4">Chepeltique</option>
+                <option value="5">Lolotique</option>
+                <option value="6">Nueva Guadalupe</option>
+                <option value="7">Chinameca</option>
+            </select><div id="MunicipioVacio" class="Error"></div><br>
+            Correo electronico: (Opcional) <br><input type="email" id="Correo" class="inptSise Spaced inputsColor"><br>
+            Numero de telefono: <br><input type="tel" id="NumeroTel" class="Spaced inputsColor"><br>
+            <div id="TelefonoVacio" class="Error"></div>
+            Inter&eacute;s de adquisic&iacute;on <br>
+            <input type="radio" name="IAdquision" id="personal" class="rdSise inputsColor" value="Consumo personal"><label for="personal">Consumo pesonal</label><br>
+            <input type="radio" name="IAdquision" id="mayoreo" class="rdSise Spaced inputsColor" value="Mayoreo"><label for="mayoreo">Mayoreo</label><br>
+            <div id="MotCompraVacio" class="Error"></div>
+            <input type="checkbox" id="TermsAcept" class="inputsColor"> &iquest;Acepta los <a href="#">teminos</a> y <a href="#">condiciones</a> de nuestra empresa?
+            
+            <div id="TermsVacio" class="Error"></div>
+            <br>
+            <input type="reset" value="Limpiar" class="btn inputsColor SaveDiscart">
+            <input type="submit" value="Confirmar" class="btn inputsColor SaveDiscart">
+        </form>
+    </div>
     <footer>
         <div class="ft-centered">
             <a href="#" class="noLinkDec">

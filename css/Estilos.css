@@ -1,5 +1,15 @@
 .bg-navbar{
     background-color: #8D7B68;
+    width: 100%;
+    display: fixed;
+    top: 0;
+}
+.NavLinkTex{
+    color: white;
+    font-size: small;
+}
+.NavLinkTex:hover{
+    color: #F1DEC9;
 }
 .mainColors{
     background-color: #F1DEC9;
@@ -34,7 +44,7 @@ img{
 }
 .ImgSise{
     width: auto;
-    height: 15rem;
+    max-height: 20em;
 }
 #Table-position{
     width: 95%;
