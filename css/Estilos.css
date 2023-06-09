@@ -1,0 +1,117 @@
+.bg-navbar{
+    background-color: #8D7B68;
+}
+.mainColors{
+    background-color: #F1DEC9;
+    color: #A4907C;
+}
+.ColorsCatl{
+    color: #A4907C;
+}
+img{
+    border-radius: 20px;
+}
+.noLinkDec{
+    text-decoration: none;
+}
+.nav-link-space{
+    margin: 0 25px;
+}
+.link-decoration-none{
+    list-style: none;
+    margin: 25px 0;
+}
+.ft-centered{
+    text-align: center;
+}
+#Welcome h1
+{
+    text-align: center;
+}
+.card{
+    border: none;
+    margin: 0 auto;
+}
+.ImgSise{
+    width: auto;
+    height: 15rem;
+}
+#Table-position{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+}
+.bgPersonalised{
+    background-color: rgba(0,0,0, 0.5);
+}
+.bgModalPersonalised{
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+}   
+.modalColor{
+    color: #8D7B68;
+}
+.btnColor{
+    margin: 0 auto;
+    background-color: #616161;
+    color: white;
+}
+.FormCompra{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    padding: 1%;
+    border: 1px solid #8D7B68;
+    border-radius: 5px;
+    background-color: #C8B6A6;
+    color: #8D7B68;
+}
+.FormCompra form .inptSise{
+    width: 55%;
+}
+.FormCompra .rdSise{
+    width: 5%;
+}
+.FormCompra .Spaced{
+    margin-bottom: 2.5%;
+}
+.Error
+{
+    color: red;
+}
+.btnBgPersonalised{
+    background-color: #A4907C;
+    border-radius: 5px;
+    width: 20%;
+}
+.inputsColor{
+    background-color: white;
+    color: #8D7B68;
+    border: 0.5px solid #A4907C;
+    border-radius: 5px;
+    outline: grey;
+}
+.inputsColor:focus{
+    border: 0.5px solid #A4907C;
+    border-radius: 5px;
+    outline: none;
+}
+.inputsColor:active{
+    border: 0.5px solid #A4907C;
+    border-radius: 5px;
+    outline: white;
+}
+
+.inputsColor:checked{
+    border: 0.5px solid #A4907C;
+    border-radius: 5px;
+    outline: white;
+    accent-color: #A4907C;
+}
+.SaveDiscart:hover{
+    background-color: #8D7B68;
+    color: white;
+}
