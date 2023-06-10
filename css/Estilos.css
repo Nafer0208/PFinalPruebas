@@ -3,9 +3,12 @@
     width: 100%;
     top: 0;
 }
+#Brandlogo{
+    width: 5cqmax;
+}
 .NavLinkTex{
     color: white;
-    font-size: 1cqmax;
+    font-size: 2cqmax;
 }
 .NavLinkTex:hover{
     color: #F1DEC9;
@@ -15,7 +18,7 @@
 }
 .NavLinkTexBrand{    
     color: white;
-    font-size: 1.5cqmax;
+    font-size: 2cqmax;
     
 }
 .NavLinkTexBrand:hover{
@@ -51,8 +54,8 @@ img{
     text-align: center;
 }
 .ImgSise{
-    width: auto;
-    max-height: 10cqmax;
+    max-width: auto;
+    max-height: 7cqmax;
 }
 #Table-position{
     width: 95%;
@@ -137,8 +140,8 @@ img{
     font-size: 1cqmax;
 }
 .CtlgFSiseTop{
-    font-size: 2cqmax;
+    font-size: 1.5cqmax;
 }
 .CtlgFSiseTop2{
-    font-size: 1.5cqmax;
+    font-size: 1.2cqmax;
 }
