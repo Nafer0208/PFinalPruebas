@@ -7,7 +7,7 @@ function Validar(){
     Nombre = document.getElementById("Nombre");
     if(Nombre.value != "")
     {
-        document.getElementById("NombreVacio").innerHTML= "";
+        document.getElementById("MensajeNombre").innerHTML= "";
         Direccion = document.getElementById("Direccion");
         if(Direccion.value != "")
         {

@@ -55,7 +55,14 @@ img{
 }
 .ImgSise{
     max-width: auto;
-    max-height: 7cqmax;
+    max-height: 25cqmin;
+}
+.ImgSiseCaru{
+    max-width: auto;
+    max-height: 25cqmax;
+}
+.CaruColors{
+    color: #494138;
 }
 #Table-position{
     width: 95%;
@@ -144,4 +151,11 @@ img{
 }
 .CtlgFSiseTop2{
     font-size: 1.2cqmax;
+}
+.intro{
+    width: 85%;
+    margin: 0 auto;
+}
+.text{
+    font-size: 1cqmax;
 }
